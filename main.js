@@ -13,14 +13,14 @@ function getInput() {
             type: 'input',
             name: 'guess',
 
-            message: 'Please enter a guess: ',
+            message: 'Enter a guess: ',
             validate: function (value) {
                 var inputCheck = /[a-z]|[0-9]/i;
                 if (value.length === 1 && inputCheck.test(value)) {
                     return true;
                 } else {
                     console.log('fail');
-                    return 'Please enter a valid guess:';
+                    return 'Try again:';
                 }
             }
         }

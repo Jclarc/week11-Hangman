@@ -31,7 +31,6 @@ function Game() {
             default:
                 console.log('err');
         }
-
     }
 }
 module.exports = Game;
