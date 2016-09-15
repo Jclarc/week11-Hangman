@@ -1,0 +1,22 @@
+{
+  "name": "hangman",
+  "version": "0.1.0",
+  "description": "Week11-hangman",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jclarc/week11-Hangman.git"
+  },
+  "keywords": [
+    "hangman"
+  ],
+  "author": "Jacob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jclarc/week11-Hangman/issues"
+  },
+  "homepage": "https://github.com/Jclarc/week11-Hangman#readme"
+}
